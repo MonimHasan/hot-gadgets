@@ -1,11 +1,19 @@
 .container{
     margin-bottom:100px;
 }
+.orange-bg{
+    background-color:#fceae8;
+    border-radius:10px;
+
+}
 .gadget-logo{
     margin-top:20px;
 }
 .carousel-indicators li{
     background-color:orange;
+}
+.carousel-item{
+    padding: 20px 40px;
 }
 .buy-now-button{
     background-color:#000000;
@@ -19,6 +27,7 @@
     border:none;
     border-radius:10px;
     box-shadow:5px 5px 10px lightgray;
+    overflow:hidden;
 }
 .card-footer{
     background-color:#fff;
@@ -30,4 +39,64 @@
 }
 .orange{
     color:#ff9d00;
+}
+.category-border{
+    border-style: solid;
+    border-width: 0 0 5px 0;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    width: 8%;
+    margin: auto;
+    border-image: linear-gradient(45deg, rgb(255, 125, 3), rgb(250,224,66)) 1;
+    margin-bottom: 5%;
+}
+.card{
+    text-align:center;
+    text-align: center;
+    border: none;
+    box-shadow: lightgrey 5px 5px 18px;
+}
+.card-columns{
+    margin-left: 20%;
+}
+.category-bag {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 5px;
+}
+.category-shoe-beauty {
+    margin-bottom: 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 25px;
+}
+.category-bag h6{
+    padding-top: 10%;
+}
+#beauty{
+    padding-top: 10%;
+}
+.col-sm-12{
+    margin-bottom: 20px;
+}
+.form-control{
+    margin-bottom:10px;
+}
+.card-footer{
+    background-color:#fff;
+    border-top:none;
+}
+.container-height{
+    height:300px;
+}
+#subscribe h6{
+    color:gray;
+}
+.form-control{
+    margin-bottom:10px;
+}
+footer{
+    text-align:center;
 }
